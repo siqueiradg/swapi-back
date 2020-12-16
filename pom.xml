@@ -62,6 +62,20 @@
 			<version>3.0.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-junit-jupiter</artifactId>
+			<version>3.2.4</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.tngtech.archunit</groupId>
+			<artifactId>archunit-junit5</artifactId>
+			<version>0.14.1</version>
+			<scope>test</scope>
+		</dependency>
+
 		<!-- Others -->
 		<dependency>
 			<groupId>org.mapstruct</groupId>
@@ -86,7 +100,7 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>

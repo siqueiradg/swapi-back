@@ -19,7 +19,6 @@ import java.util.Optional;
 @Service
 public class PeopleService {
 
-    @Value("${api.url}")
     private String url;
 
     @Autowired
@@ -33,6 +32,10 @@ public class PeopleService {
 
     @Autowired
     private SwapiUtil swapiUtil;
+
+    PeopleService(@Value("${api.url}") String url) {
+        this.url = url;
+    }
 
     public PeopleResponseDTO searchPeople(Optional<String> term, Optional<Integer> page){
         final String endpoint = url.concat("people/").concat(swapiUtil.getUrlWithPagination(term, page));

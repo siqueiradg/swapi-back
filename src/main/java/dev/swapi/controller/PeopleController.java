@@ -1,5 +1,6 @@
 package dev.swapi.controller;
 
+import dev.swapi.config.RestTemplateConfig;
 import dev.swapi.model.dto.people.PeopleResponseDTO;
 import dev.swapi.service.PeopleService;
 import io.swagger.annotations.ApiOperation;

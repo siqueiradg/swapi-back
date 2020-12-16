@@ -56,6 +56,9 @@ Abaixo as tecnologias que foram utilizadas no projeto:
  - Swagger
  - MapStruct
  - H2
+ - Mockito
+ - JUnit5
+ - ArchUnit
  
 Deploy
 ------------------- 
