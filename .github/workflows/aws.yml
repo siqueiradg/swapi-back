@@ -51,13 +51,13 @@ jobs:
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
         task-definition: task-definition.json
-        container-name: container-swapi
+        container-name: container-spring-itau
         image: ${{ steps.build-image.outputs.image }}
 
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: service-swapi
-        cluster: oh-itau
+        service: service-itau
+        cluster: cluster-spring-itau
         wait-for-service-stability: true
