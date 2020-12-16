@@ -2,7 +2,7 @@ Bem vindo ao SWAPI - Back!
 ===================
 
 ----------
-Swagger - [demonstração](http://lb-spring-itau-315118071.us-east-2.elb.amazonaws.com:8080/swapi/swagger-ui/index.html)
+Swagger - [API - Swagger](http://lb-spring-itau-315118071.us-east-2.elb.amazonaws.com:8080/swapi/swagger-ui/index.html)
 
 ## O que preciso para subir a aplicação
 
@@ -63,3 +63,9 @@ Abaixo as tecnologias que foram utilizadas no projeto:
 Deploy
 ------------------- 
  - Github Action + (AWS) Fargate, Elastic Container Registry, Relational Database Service
+ 
+ 
+ Arquitetura da aplicação - Simplificada
+------------------- 
+ 
+ ![AWS](https://github.com/siqueiradg/swapi-back/blob/master/aws.jpg)
