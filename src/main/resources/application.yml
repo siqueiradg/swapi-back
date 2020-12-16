@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /swapi
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  datasource:
+    url: jdbc:mariadb://caseitau.cr9ehjjybmlg.us-east-2.rds.amazonaws.com:3306/caseitau
+    username: test
+    password:
+    driver-class-name: org.mariadb.jdbc.Driver
+    hikari:
+      max-lifetime: 580000
+
+api:
+  url: https://swapi.dev/api/
