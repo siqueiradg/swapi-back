@@ -19,6 +19,9 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>11</java.version>
 		<mapstruct.version>1.4.1.Final</mapstruct.version>
+		<sonar.projectKey>siqueiradg_swapi-back</sonar.projectKey>
+		<sonar.organization>siqueiradg</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
